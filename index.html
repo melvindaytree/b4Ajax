@@ -20,7 +20,31 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <h1>
+The Library
+</h1>
+<nav id="nav_main">
+  <a href="#" id="menu_toggle">Show Menu</a>
+  <ul id="list">
+    <li><a href="#">About The Library</a></li>
+    <li><a href="#">Older Books</a></li>    
+    <li><a id="loginLink" href="#">Log In</a></li>
+  </ul>
+  <form id="login" class="hidden">
+    <label for="usr_name">Username </label></label><input type="text" id="usr_name">
+    <label for="password">Password </label><input type="password" id="password">
+    <input type="button" id="submitLogin" value="go">
+  </form>
+</nav>
+<div id="content" class="hidden">
+  <h2>
+   Featured Books:
+  </h2>
+  <div id="featuredBooks">
+  
+  </div>
+</div>
+
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>

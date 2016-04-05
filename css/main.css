@@ -97,17 +97,59 @@ textarea {
 
 
 
+.hidden {
+  display:none;
+}
+
+.checkedOut {
+  color:red;
+}
+
+.checkedIn {
+  color:green;
+}
 
 
+h1 {
+    font-family: helvetica;
+    margin-left: 5%;
+}
+
+#nav_main a {
+    margin-left: 10%;
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    transition: all .5s linear;
+}
+
+#nav_main a:hover {
+    color:red;
+}
+
+li {
+    transition: all .5s linear;
+    text-decoration: none;
+}
 
 
+ul {
+    list-style-type: none;
+}
 
 
+#login {
+    margin-left: 10%;
+}
 
+#featuredBooks div {
+    float:left;
+    margin-left:2%;
+}
 
-
-
-
+#content {
+    margin-left:2%;
+}
 
 
 
